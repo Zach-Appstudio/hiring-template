@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: 14
         cache: 'npm'
-    - run: npm instll next --force
+    - run: npm install next --force
     - run: npm run build --if-present
     - run: npm run dev
