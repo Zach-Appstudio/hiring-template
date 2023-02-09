@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: 14
         cache: 'npm'
-    - run: npm insatll next --force
+    - run: npm insatl next --force
     - run: npm run build --if-present
     - run: npm run dev
